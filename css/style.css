@@ -1,0 +1,137 @@
+.title {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  border-radius: 5rem;
+  position: absolute;
+  bottom: -57px;
+  background-color: var(--bs-primary);
+}
+.banner_desktop {
+  background-image: url('/src/img/0E3A1911.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  border: solid 8px var(--bs-primary);
+  border-radius: 2rem;
+  padding: 0;
+  position: relative;
+}
+.banner_mobile {
+  background-image: none;
+  border: none;
+}
+.img_def {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 8px var(--bs-primary);
+}
+.img_def img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo img {
+  width: 100%;
+}
+.m-btm-lg {
+  margin-bottom: 4rem !important;
+}
+.bg-colour {
+  background-color: var(--bs-secondary);
+}
+.bck-img img {
+  width: 100%;
+  height: 65vh;
+  border: solid 8px var(--bs-primary);
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.arrow {
+  width: 40px;
+  position: relative;
+  top: -9px;
+}
+.p_set {
+  background-color: var(--bs-secondary);
+  width: 220px;
+  padding: 0.5rem 0 0.5rem 0;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 0;
+}
+.img_zoom {
+  height: 160% !important;
+}
+.footer_banner {
+  background-image: url('/src/img/0E3A2155.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 55%;
+  height: 80vh;
+}
+@media only screen and (max-width: 1400px) {
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .title {
+    bottom: -45px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .banner_mobile {
+    background-image: url('/src/img/0E3A1911.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0%;
+    background-position-x: 90%;
+    border: solid 5px var(--bs-primary);
+    border-radius: 2rem;
+    padding: 0;
+  }
+  .banner_desktop {
+    background-image: none;
+    border: none;
+  }
+  .title {
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .img_def {
+    width: 140px;
+    height: 140px;
+  }
+  .img_def,
+  .banner_mobile,
+  .bck-img img {
+    border: solid 5px var(--bs-primary);
+  }
+  h1,
+  .h1 {
+    font-size: 1.4rem;
+  }
+  .m-btm-lg {
+    margin-bottom: 1rem !important;
+  }
+  .bck-img img {
+    height: 45vh;
+  }
+  .p_set {
+    width: 130px;
+    bottom: 10px;
+  }
+  .footer_banner {
+    height: 35vh;
+  }
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Bold.eot');
+  src: url('./fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Rubik-Bold.woff2') format('woff2'),
+    url('./fonts/Rubik-Bold.woff') format('woff'),
+    url('./fonts/Rubik-Bold.ttf') format('truetype'),
+    url('./fonts/Rubik-Bold.svg#Rubik-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-ExtraBold.eot');
+  src: url('./fonts/Rubik-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Rubik-ExtraBold.woff2') format('woff2'),
+    url('./fonts/Rubik-ExtraBold.woff') format('woff'),
+    url('./fonts/Rubik-ExtraBold.ttf') format('truetype'),
+    url('./fonts/Rubik-ExtraBold.svg#Rubik-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Regular.eot');
+  src: url('./fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Rubik-Regular.woff2') format('woff2'),
+    url('./fonts/Rubik-Regular.woff') format('woff'),
+    url('./fonts/Rubik-Regular.ttf') format('truetype'),
+    url('./fonts/Rubik-Regular.svg#Rubik-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Medium.eot');
+  src: url('./fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Rubik-Medium.woff2') format('woff2'),
+    url('./fonts/Rubik-Medium.woff') format('woff'),
+    url('./fonts/Rubik-Medium.ttf') format('truetype'),
+    url('./fonts/Rubik-Medium.svg#Rubik-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bs-primary: #001b51;
+  --bs-secondary: #7db5f8;
+
+  --bs-rubik: 'Rubik', sans-serif;
+  --bs-body-font-family: var(--bs-rubik);
+  --bs-body-font-size: 16px;
+  --bs-body-font-weight: 200;
+  --bs-body-line-height: 1.4;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+body,
+html {
+  font: var(--bs-body-font-weight) var(--bs-body-font-size) /
+    var(--bs-body-line-height);
+}
+
+h1,
+.h1 {
+  font-size: 4rem;
+  font-family: 'Rubik', sans-serif;
+}
+h2 {
+  font-size: 3rem;
+  font-family: 'Rubik', sans-serif;
+}
+p {
+  font-size: 2rem;
+  font-family: 'Rubik', sans-serif;
+}
+.bold {
+  font-weight: 600 !important;
+}
+.normal {
+  font-weight: normal !important;
+}
